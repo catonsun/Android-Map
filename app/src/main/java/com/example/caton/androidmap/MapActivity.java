@@ -6,6 +6,7 @@ import android.location.Geocoder;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.widget.CheckBox;
 
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -31,7 +32,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_map);
-
 
         // Get the message from the intent
         Intent intent = getIntent();
