@@ -35,7 +35,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
 
         // Get the message from the intent
         Intent intent = getIntent();
-        String address = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        String address = intent.getStringExtra(SingleAddressActivity.EXTRA_MESSAGE);
 
         Geocoder gc = new Geocoder(this);
         List<Address> addressList;

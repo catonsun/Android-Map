@@ -4,4 +4,7 @@
     <string name="button_send">Find</string>
     <string name="title_activity_display_message">Map</string>
     <string name="google_maps_key">AIzaSyBcMyOc9yrfXEnsF7FE-dtV6fPk3o9jUIw</string>
+    <string name="button_loc">Current Location</string>
+    <string name="single_address">One Address Lookup</string>
+    <string name="two_address">Two Address Lookup</string>
 </resources>
