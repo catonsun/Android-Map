@@ -24,13 +24,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".SingleAddressActivity"
-            android:label="@string/title_activity_display_message"></activity>
+
         <activity
             android:name=".MapActivity"
             android:label="@string/title_activity_display_message"></activity>
+        <activity
+            android:name=".TwoMapActivity"
+            android:label="Map"></activity>
         <activity android:name=".TwoAddressActivity"></activity>
+        <activity android:name=".SingleAddressActivity"></activity>
+
     </application>
 
 </manifest>
